@@ -1,5 +1,6 @@
 body {
-  background-color: rgba(204, 204, 204, 0.8);
+  background-color: rgba(149, 237, 240, 0.8);
+  box-sizing: border-box;
 }
 
 img {
@@ -8,6 +9,7 @@ img {
   border-radius: 30%;
 }
 
+/* RECIPE PAGES */
 .recipe-sub-title {
 font-family: 'Arial', 'Helvetica', sans-serif;  
 text-decoration: underline;
@@ -18,8 +20,20 @@ font-size: 25px;
   list-style-type: square;
 }
 
-.recipe-title {
-  font-family: Impact, 'Arial Narrow Bold', sans-serif;
-  font-size: 40px;
+
+/* INDEX SECTION */
+.odin-title {
+  border: 10px dotted black;
+  width: 350px;
+  padding: 20px;
   text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 auto;
 }
+
+.recipe-container {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+}
+
