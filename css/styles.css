@@ -1,0 +1,25 @@
+body {
+  background-color: rgba(204, 204, 204, 0.8);
+}
+
+img {
+  width: 350px;
+  height: auto;
+  border-radius: 30%;
+}
+
+.recipe-sub-title {
+font-family: 'Arial', 'Helvetica', sans-serif;  
+text-decoration: underline;
+font-size: 25px;
+}
+
+.ingredients{
+  list-style-type: square;
+}
+
+.recipe-title {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
